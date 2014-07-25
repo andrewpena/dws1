@@ -1,25 +1,27 @@
 body {
 	font: 1em 'exo 2';
 	line-height: 1.5em;
-	max-width: 1024px;
-	margin: 0 auto;
-	background-color: #fff700;
+	max-width: 100%;
+	margin: 0 25px;
+	background: linear-gradient(#fff700, #ff0000);
+	
 }
 
 #wrapper {
-	width: 1024px;
+	max-width: 85%;
 	padding: 10px;
 	border: 5px ridge #000;
-	margin: 10px;
+	margin: 25px;
 	background-color: #fff;
 	border-radius: 25px;
-	box-shadow: 5px 5px 5px #888;
+	box-shadow: 5px 5px 5px #888
+	
 }
 
 h2 {
-	width: 1000px;
-	height: 25px;
-	padding: 15px;
+	width: 95.703125%;
+	height: 2.44140625%;
+	padding: 1.46484375%;
 	border: 5px ridge #000;
 	background-color: rgba(255,255,0,.5);
 	border-radius: 5px;
@@ -28,33 +30,38 @@ h2 {
 
 
 h1 { 
+	color: #fff700;
 	font: 5em griffy, cursive, serif;	
 	text-align: center;
-	padding-left: 50px; 
-	text-shadow: 2px 2px #ff0000;   	
+	padding-left: 4.8828125%; 
+	text-shadow: 5px 5px 5px #ff0000;
+	background-image: url('../images/the-night.png')
+	
+	  	
 }
 
 h2 {
-	font-family: 'cherry cream soda';
+	font-family: 'cherry cream soda', cursive, serif;
 }
 
 h3 {
-	font-family: 'nixie one';
+	padding-right: 10px;
+	font-family: 'nixie one', cursive, serif;
 } 
 
 footer {
-	font: 2em pacifico;
+	font: 2em pacifico, cursive, serif;
 } 
 
 
 
 img {
-	width: 360px;
-	height: 203px;
-	padding: 15px;
+	width: 70.3125%;
+	height: 39.6484975%;
+	padding: 2.9296875%;
 	border: 5px ridge #000;
 	background-color: #fff700;
-	border-radius: 5px;
+	border-radius: .48828125%;
 	box-shadow: 3px 3px 5px #888;
 }
 
@@ -88,6 +95,99 @@ ol {
 ul {
 	list-style-type: none;	
 }
-	
+
+#car {
+	float: left;
+	width: 45%;
+	margin: 1.46484375%;
+}
+#emblem {
+	float: left;
+	width: 45%;
+	margin: 1.46484375%;
+}
+#hood {
+	float: left;
+	width: 45%;
+	margin: 1.46484375%;
+}
+#rim {
+	float: left;
+	width: 45%;
+	margin: 1.46484375%;
+}
+#tail {
+	float: left;
+	width: 45%;
+	margin: 1.46484375%;
+}
+#back {
+	float: left;
+	width: 45%;
+	margin: 1.46484375%;
+}
+
+#content1 {
+	float: left;
+	width: 45%;
+	margin: 2%;
+}
+
+#content2 {
+	float: left;
+	width: 45%;
+	margin: 2%;
+}
+
+#content3 {
+	float: left;
+	width: 45%;
+	margin: 2%;
+}
+
+#content4 {
+	float: left;
+	width: 45%;
+	margin: 2%;
+}
+
+#lighter {
+	float: left;
+	width: 30%;
+	margin: 1.5%;
+}
+
+#frame {
+	float: left;
+	width: 30%;
+	margin: 1.5%;
+}
+
+#suspension {
+	float: left;
+	width: 30%;
+	margin: 1.5%;
+}
+
+#interior {
+	clear: left;
+}
+
+
+#engineering  {
+	background-image: url('../images/engineering.png');
+	background-repeat: no-repeat;
+	clear: left;
+}
+
+#precision {
+	background-image: url('../images/precision.png');
+	background-repeat: no-repeat;
+	clear: left;
+}
+
+#image {
+	background-image: url('../images/the-night.png')
+}
 
 
