@@ -1,37 +1,40 @@
 body {
-	font: 1em 'exo 2', cursive, serif;
+	font: 1em 'exo 2';
 	line-height: 1.5em;
-	max-width: 1024px;
-	margin: 0 auto;
-	background-color: #fff700;
+	max-width: 100%;
+	margin: 0 25px;
+	background: linear-gradient(#fff700, #ff0000);	
 }
 
 #wrapper {
-	width: 1024px;
+	max-width: 90%;
 	padding: 10px;
 	border: 5px ridge #000;
-	margin: 10px;
+	margin: 25px;
 	background-color: #fff;
 	border-radius: 25px;
-	box-shadow: 5px 5px 5px #888;
+	box-shadow: 5px 5px 5px #888	
 }
 
 h2 {
-	width: 960px;
-	height: 25px;
-	padding: 15px;
+	width: 95.703125%;
+	height: 2.44140625%;
+	padding: 1.46484375%;
 	border: 5px ridge #000;
 	background-color: rgba(255,255,0,.5);
 	border-radius: 5px;
 	box-shadow: 3px 3px 5px #888;
+	clear: left;
 }
 
 
 h1 { 
+	color: #fff700;
 	font: 5em griffy, cursive, serif;	
 	text-align: center;
-	padding-left: 50px; 
-	text-shadow: 2px 2px #ff0000;   	
+	padding-left: 4.8828125%; 
+	text-shadow: 5px 5px 5px #ff0000;
+	background-image: url('../images/the-night.png')	  	
 }
 
 h2 {
@@ -39,26 +42,25 @@ h2 {
 }
 
 h3 {
+	padding-right: 10px;
 	font-family: 'nixie one', cursive, serif;
 } 
 
 footer {
-	font: 2em pacifico;
+	font: 2em pacifico, cursive, serif;
 } 
 
 
 
 img {
-	width: 360px;
-	height: 203px;
-	padding: 15px;
+	width: 70.3125%;
+	height: 39.6484975%;
+	padding: 2.9296875%;
 	border: 5px ridge #000;
 	background-color: #fff700;
-	border-radius: 5px;
+	border-radius: .48828125%;
 	box-shadow: 3px 3px 5px #888;
 }
-
-
 
 /* unvisited link */
 a:link {
@@ -88,6 +90,64 @@ ol {
 ul {
 	list-style-type: none;	
 }
-	
+
+#hawk1 {
+	float: left;
+	width: 45%;
+	margin: 1.46484375%;
+}
+#hawk2 {
+	float: left;
+	width: 45%;
+	margin: 1.46484375%;
+}
+#hawk3 {
+	float: left;
+	width: 45%;
+	margin: 1.46484375%;
+}
+#hawk4 {
+	float: left;
+	width: 45%;
+	margin: 1.46484375%;
+}
+#hawk5 {
+	float: left;
+	width: 45%;
+	margin: 1.46484375%;
+}
+#hawk6 {
+	float: left;
+	width: 45%;
+	margin: 1.46484375%;
+}
+
+#content1 {
+	float: left;
+	width: 45%;
+	margin: 2%;
+}
+
+#content2 {
+	float: left;
+	width: 45%;
+	margin: 2%;
+}
+
+#diet  {
+	background-image: url('../images/mouse.png');
+	background-repeat: no-repeat;
+	clear: left;
+}
+
+#characteristics {
+	background-image: url('../images/hawkeye.png');
+	background-repeat: no-repeat;
+	clear: left;
+}
+
+#top {
+	background-image: url('../images/northernLights.gif')
+}
 
 
